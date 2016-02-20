@@ -72,8 +72,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 </ol>
             </section>
 
-            <?= $this->Flash->render() ?>
             <section class="content">
+                <?= $this->Flash->render() ?>
                 <?= $this->fetch('content') ?>
             </section>
         </div>
