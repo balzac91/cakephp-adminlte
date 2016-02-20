@@ -177,28 +177,3 @@ if (!empty($associations['BelongsToMany'])) {
         </div>
     </div>
 </div>
-
-
-<script>
-    $(function () {
-        $('.bootstrap-timepicker').datetimepicker({
-            sideBySide: true,
-            format: 'HH:mm:ss'
-        });
-
-        $('.bootstrap-datepicker').datetimepicker({
-            sideBySide: true,
-            format: 'YYYY-MM-DD'
-        });
-
-        $('.bootstrap-datetimepicker').datetimepicker({
-            sideBySide: true,
-            format: 'YYYY-MM-DD HH:mm:ss'
-        });
-
-        $('.iCheck-input input[type="checkbox"], .iCheck-input input[type="radio"]').iCheck({
-            checkboxClass: 'icheckbox_minimal-blue',
-            radioClass: 'iradio_minimal-blue'
-        });
-    });
-</script>
