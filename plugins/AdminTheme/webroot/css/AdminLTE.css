@@ -4727,3 +4727,15 @@ table.text-center th {
     white-space: normal!important;
   }
 }
+
+/*
+ * Custom CSS
+ * -----------
+ */
+.iCheck-input label {
+  padding-left: 0;
+}
+.iCheck-input  .icheckbox_minimal-blue {
+  margin-bottom: 1px;
+  margin-right: 15px;
+}
