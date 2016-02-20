@@ -4739,3 +4739,10 @@ table.text-center th {
   margin-bottom: 1px;
   margin-right: 15px;
 }
+.form-group .input.error .form-control {
+  border-color: #dd4b39 !important;
+  box-shadow: none;
+}
+.form-group .input .error-message {
+  color: #dd4b39;
+}
