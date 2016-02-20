@@ -12,8 +12,6 @@
  * @since         0.10.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
-$cakeDescription = 'CakePHP: the rapid development php framework';
 ?>
 
 <!doctype html>
@@ -23,32 +21,21 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
-        <?= $cakeDescription; ?>:
         <?= $this->fetch('title'); ?>
     </title>
     <?= $this->Html->meta('icon'); ?>
     <?= $this->fetch('meta'); ?>
     <?= $this->Html->css('bootstrap/bootstrap.min'); ?>
-
-
     <?= $this->Html->css('bootstrap-datetimepicker/bootstrap-datetimepicker.min'); ?>
     <?= $this->Html->css('iCheck/all.css'); ?>
-
-
     <?= $this->Html->css('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'); ?>
     <?= $this->Html->css('AdminLTE'); ?>
     <?= $this->Html->css('skins/_all-skins.min'); ?>
     <?= $this->Html->script('jQuery/jQuery-2.1.4.min'); ?>
     <?= $this->Html->script('bootstrap/bootstrap.min'); ?>
     <?= $this->Html->script('momentjs/moment-with-locales.min'); ?>
-
-
-
-
-
     <?= $this->Html->script('bootstrap-datetimepicker/bootstrap-datetimepicker.min'); ?>
     <?= $this->Html->script('iCheck/iCheck.min'); ?>
-
     <?= $this->Html->script('slimScroll/jquery.slimscroll'); ?>
     <?= $this->Html->script('AdminLTE/app'); ?>
     <?= $this->fetch('css'); ?>
@@ -57,19 +44,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
         <?= $this->element('top_menu'); ?>
-
         <?= $this->element('left_sidebar'); ?>
 
         <div class="content-wrapper">
             <section class="content-header">
                 <h1>
-                    Dashboard
-                    <small>Control panel</small>
+                    Control panel
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li class="active">Dashboard</li>
-                </ol>
             </section>
 
             <section class="content">
@@ -79,11 +60,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </div>
 
         <footer class="main-footer">
-            <div class="pull-right hidden-xs">
-                <b>Version</b> 2.3.2
-            </div>
-            <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-            reserved.
+            <strong>Copyright &copy; <?= date('Y'); ?> All rights reserved.
         </footer>
     </div>
 </body>
