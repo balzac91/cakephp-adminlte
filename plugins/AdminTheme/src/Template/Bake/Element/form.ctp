@@ -39,12 +39,9 @@ if (isset($modelObject) && $modelObject->behaviors()->has('Tree')) {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-right">
 <% if (strpos($action, 'add') === false): %>
-                            <li><?= $this->Form->postLink(
-                                    __('Delete'),
+                            <li><?= $this->Form->postLink(__('Delete'),
                                     ['action' => 'delete', $<%= $singularVar %>-><%= $primaryKey[0] %>],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $<%= $singularVar %>-><%= $primaryKey[0] %>)]
-            );
-        ?></li>
+                                    ['confirm' => __('Are you sure you want to delete # {0}?', $<%= $singularVar %>-><%= $primaryKey[0] %>)]); ?></li>
 <% endif; %>
                             <li><?= $this->Html->link(__('List <%= $pluralHumanName %>'), ['action' => 'index']); ?></li>
 <%
