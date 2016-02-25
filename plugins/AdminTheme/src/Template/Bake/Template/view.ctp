@@ -139,7 +139,6 @@ $details = $associationFields[$field];
 <% endforeach; %>
 <% endif; %>
                 </table>
-
 <% if ($groupedFields['text']) : %>
 <% foreach ($groupedFields['text'] as $field) : %>
                 <div class="row">

@@ -63,7 +63,6 @@ if (isset($modelObject) && $modelObject->behaviors()->has('Tree')) {
                 </div>
             </div>
 
-
             <div class="box-body">
                 <?= $this->Form->create($<%= $singularVar %>); ?>
 <%
@@ -76,7 +75,6 @@ foreach ($fields as $field) {
         $fieldData = $schema->column($field);
         if (!empty($fieldData['null'])) {
 %>
-
                 <div class="form-group">
                     <?= $this->Form->input('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, 'empty' => true, 'class' => 'form-control']); ?>
                 </div>
@@ -84,7 +82,6 @@ foreach ($fields as $field) {
 <%
         } else {
 %>
-
                 <div class="form-group">
                     <?= $this->Form->input('<%= $field %>', ['options' => $<%= $keyFields[$field] %>, 'class' => 'form-control']); ?>
                 </div>
