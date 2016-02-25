@@ -39,7 +39,6 @@
     <?= $this->fetch('script'); ?>
 </head>
 <body class="hold-transition login-page">
-    <?= $this->Flash->render() ?>
     <?= $this->fetch('content') ?>
 </body>
 </html>

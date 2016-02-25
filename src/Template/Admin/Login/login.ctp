@@ -4,6 +4,9 @@
     </div>
     <div class="login-box-body">
         <p class="login-box-msg"><?= __('Sign in to start your session'); ?></p>
+
+        <?= $this->Flash->render() ?>
+
         <?= $this->Form->create(); ?>
 
         <div class="form-group has-feedback">
