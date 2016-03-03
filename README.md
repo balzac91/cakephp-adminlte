@@ -1,4 +1,4 @@
-# AdminLTE template for CakePHP
+# AdminLTE template for CakePHP v3
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
