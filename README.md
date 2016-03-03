@@ -11,7 +11,7 @@ AdminTheme uses the following libraries and plugins:
 * [Moment.js] (http://momentjs.com/)
 * [slimScroll] (http://rocha.la/jQuery-slimScroll)
 
-AdminTheme provides templates for code generation. Details you can check in CakePHP official [documentation] (http://book.cakephp.org/3.0/en/bake/usage.html).
+AdminTheme provides templates for code generation. Mote details you can check in CakePHP official [documentation] (http://book.cakephp.org/3.0/en/bake/usage.html).
 
 ## How to start
 * Download the plugin
@@ -20,7 +20,7 @@ AdminTheme provides templates for code generation. Details you can check in Cake
 ```php
 Plugin::load('AdminTheme');
 ```
-use CakePHP shell command to enable the plugin:
+or use CakePHP shell command to enable the plugin:
 ```
 $ bin/cake plugin load AdminTheme
 ```
