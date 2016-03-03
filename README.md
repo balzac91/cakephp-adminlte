@@ -2,12 +2,12 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
-Template based on [AdminLTE] (https://almsaeedstudio.com/preview).
+[CakePHP] (http://cakephp.org/) theme based on [AdminLTE] (https://almsaeedstudio.com/preview).
 AdminTheme uses the following libraries and plugins:
 * [Bootstrap 3] (http://getbootstrap.com/)
+* [jQuery] (https://jquery.com/)
 * [Bootstrap 3 Datepicker] (https://eonasdan.github.io/bootstrap-datetimepicker/)
 * [iCheck] (http://icheck.fronteed.com/)
-* [jQuery] (https://jquery.com/)
 * [Moment.js] (http://momentjs.com/)
 * [slimScroll] (http://rocha.la/jQuery-slimScroll)
 
