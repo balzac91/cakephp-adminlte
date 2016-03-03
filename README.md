@@ -1,6 +1,6 @@
 # AdminLTE template for CakePHP
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 Template based on [AdminLTE] (https://almsaeedstudio.com/preview).
 AdminTheme uses the following libraries and plugins:
